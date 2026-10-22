@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Balanced all-rounder",
+    "mode": "attack",
+    "description": "The highest-graded mix of damage, sustain and control the checker finds among recent units.",
+    "units": [
+      5274,
+      4142,
+      4124,
+      3868,
+      4128
+    ],
+    "source": "example"
+  },
+  {
+    "name": "Paralysis lock",
+    "mode": "attack",
+    "description": "Stacks Paralysis specials so the enemy spends the fight unable to act.",
+    "units": [
+      4987,
+      3922,
+      4140,
+      4082,
+      4139
+    ],
+    "source": "example"
+  },
+  {
+    "name": "Silence control",
+    "mode": "attack",
+    "description": "Shuts down enemy specials with Silence, then wins on raw damage.",
+    "units": [
+      4096,
+      4041,
+      4140,
+      3786,
+      3845
+    ],
+    "source": "example"
+  },
+  {
+    "name": "Healer stall",
+    "mode": "defense",
+    "description": "Two or more RCV/DEF-style units outlast attackers until the timer runs out.",
+    "units": [
+      4148,
+      4084,
+      3921,
+      4122,
+      5273
+    ],
+    "source": "example"
+  },
+  {
+    "name": "Provoke wall",
+    "mode": "defense",
+    "description": "A Provoke tank draws fire while debuffers grind the attackers down.",
+    "units": [
+      4132,
+      4141,
+      3973,
+      4054,
+      3921
+    ],
+    "source": "example"
+  },
+  {
+    "name": "STR rush",
+    "mode": "attack",
+    "description": "All-STR team so type-locked ATK buffs hit every member.",
+    "units": [
+      5272,
+      3880,
+      3875,
+      4100,
+      4068
+    ],
+    "source": "example"
+  },
+  {
+    "name": "PSY tempo",
+    "mode": "attack",
+    "description": "All-PSY team built around fast specials and shared buffs.",
+    "units": [
+      5271,
+      3786,
+      3845,
+      4095,
+      3965
+    ],
+    "source": "example"
+  }
+]
