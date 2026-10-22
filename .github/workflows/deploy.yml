@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # the repo's default branch is currently claude/sharp-bell-ft8r1e
+    branches: [main, claude/sharp-bell-ft8r1e]
   workflow_dispatch:
 
 permissions:
@@ -26,6 +27,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

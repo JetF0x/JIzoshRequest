@@ -54,7 +54,9 @@ Unit IDs appear on each unit page. Entries with `"source": "example"` were gener
 
 ## Deploying
 
-`.github/workflows/deploy.yml` builds and publishes to GitHub Pages on every push to `main`. In the repo, go to **Settings → Pages** and set the source to **GitHub Actions**. If the repository is renamed, change `base` in `vite.config.ts` to match.
+`.github/workflows/deploy.yml` builds and publishes to GitHub Pages on every push to `main` or `claude/sharp-bell-ft8r1e` (currently the default branch), or when run by hand from the Actions tab. The site goes live at https://jetf0x.github.io/JIzoshRequest/.
+
+One-time setup: GitHub Pages needs a public repo (or a paid plan for private repos). Then go to **Settings → Pages** and set the source to **GitHub Actions**. If the repository is renamed, change `base` in `vite.config.ts` to match.
 
 ## Credits & license
 
